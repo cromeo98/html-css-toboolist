@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* inizio header */
+header{
+    height: 75px;
+    background-color: white;
+}
+
+#logo{
+    padding: 10px 0;
+    margin: 3px 0 3px 13px;
+    vertical-align: middle;
+}
+
+#toboolist{
+    font-size: 35px;
+    vertical-align: middle;
+}
