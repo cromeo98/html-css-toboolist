@@ -21,3 +21,15 @@ header{
 }
 /* fine header */
 
+/* inizio main */
+main{
+    background-color: blue;
+}
+
+/* inizio bottoni */
+.bottoni {
+    border-radius: 3px;
+}
+/* fine bottoni */
+
+
