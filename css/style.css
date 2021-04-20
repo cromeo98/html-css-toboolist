@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color:rgb(236, 236, 236) ;
+}
+
 /* inizio header */
 header{
     height: 75px;
@@ -24,14 +28,13 @@ header{
 /* inizio main */
 main{
     padding-top: 30px;
-    background-color: rgb(236, 236, 236);
 }
 
 /* inizio bottoni */
 .bottoni-add {
     background-color:white;
     padding: 15px 40px;
-    margin: 0 185px;
+    margin: 0 185px -14px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -63,6 +66,9 @@ main{
 .to-do-list{
     background-color:white;
     margin: 0 185px;
+    padding-right: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .list-name{
