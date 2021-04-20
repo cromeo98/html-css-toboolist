@@ -108,4 +108,15 @@ main{
     margin-right: 10px;
     color:  rgb(255, 106, 106);
 }
+
+.classificazione{
+    display: inline-block;
+    height: 15px;
+    border:1px solid;
+    border-radius: 15px;
+    margin-left: 10px;
+    box-sizing: content-box;
+    padding: 0 10px;
+    font-size: 11px;
+}
 /* fine to-do-list */
