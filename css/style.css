@@ -57,8 +57,8 @@ main{
 
 /* inizio to-do-list */
 .to-do-list{
-background-color:white;
-margin: 0 185px;
+    background-color:white;
+    margin: 0 185px;
 }
 
 .list-name{
@@ -70,5 +70,38 @@ margin: 0 185px;
 }
 .list-name::before{
     content: '\23F7';
+}
+
+.list-item{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.done{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: -40px;
+    margin-right: 10px;
+    color: lightgreen;
+}
+
+.not-done{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(255, 106, 106);
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: -40px;
+    margin-right: 10px;
+    color:  rgb(255, 106, 106);
 }
 /* fine to-do-list */
