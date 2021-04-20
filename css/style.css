@@ -23,12 +23,35 @@ header{
 
 /* inizio main */
 main{
-    background-color: blue;
+    padding-top: 30px;
+    background-color: lightgrey;
 }
 
 /* inizio bottoni */
-.bottoni {
+.bottoni-add {
+    background-color:white;
+    padding: 15px 15px;
+    margin: 0 185px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#task-button{
     border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: lightskyblue;
+    border-color:lightskyblue;
+}
+
+#section-button{    
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: lightgray;
+    background-color: white;
+    border-color: lightgray;
 }
 /* fine bottoni */
 
